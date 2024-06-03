@@ -24,5 +24,13 @@ let StringNumber = String(someNumber)
 console.log(StringNumber);
 console.log(typeof StringNumber); //STRING
 
+let str1 = "Hello"
+let str2 = " Himanshu"
+console.log(str1 + str2);
+
+console.log(1 + 2 + "3");
+console.log("2" + 1 + 3);
+console.log(+true); //converts to 1
+
 
 
