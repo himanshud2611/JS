@@ -19,3 +19,23 @@ console.log(typeof bigNumber);
 console.log(typeof myFunction);
 console.log(typeof outsideTemp); // type of NULL is Object
 console.log(typeof myObj);
+
+
+//Stack[Primitive], Heap[Non-Primitive]
+let myGithubName = "himanshud2611"
+let anotherName = myGithubName
+anotherName = "hdubey261102"
+
+console.log(myGithubName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user1@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
